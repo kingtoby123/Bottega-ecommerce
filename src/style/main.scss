@@ -2,10 +2,6 @@ html {
     font-size: 62.5%;
 }
 
-h1 {
-    font-size: 1.5rem;
-}
-
 
 *,
 *::after,
@@ -20,3 +16,5 @@ h1 {
 
 @import 'layout';
 @import 'headernavbar';
+@import 'auth/signin';
+@import 'auth/signup';
